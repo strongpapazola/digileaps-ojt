@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "0d6314e6-b877-4887-8467-da1bb99d6399",
+		"name": "digileaps",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get_all_berita",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/berita",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"berita"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_berita_id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/berita/asdasdasd",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"berita",
+						"asdasdasd"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert_berita",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/berita",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"berita"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_berita",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\": \"berita lokal\",\r\n    \"Address\": \"jalan suka\",\r\n    \"Age\": 100\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/berita/6065cd80896f2d38bc035edd",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"berita",
+						"6065cd80896f2d38bc035edd"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete_berita",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/berita/6065cd80896f2d38bc035edd",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"berita",
+						"6065cd80896f2d38bc035edd"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
